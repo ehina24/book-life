@@ -1,0 +1,102 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #785630;
+}
+.container{
+    background-color: #FFFACD;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Zen Old Mincho",sans-serif;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-right: 16px;
+    gap: 220px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: #FC9420;
+}
+.goal{
+    border: 3px solid rgba(124, 88, 48, 0.30);
+    width: 640px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 56px;
+    margin: 0 auto;
+}
+.today_goal{
+    color: #785630;
+    font-size: 5rem;
+}
+.page{
+    color: #785630;
+    font-size: 4rem;
+    span{
+        border-bottom: solid 1px #785630;
+    }
+}
+.change{
+    color: #FC9420;
+    font-size: 3rem;
+    border:1px solid rgba(252, 148, 32, 0.40);
+}
+
+.deskWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -40px;
+    margin-top: 240px;
+}
+.bookWrap{
+    display: flex;
+    flex-direction: column;
+    z-index: 20;
+    position: absolute;
+    top: 780px;
+    right: 800px;
+
+}
+.tableWrap{
+    position: relative;
+    z-index: 10;
+    margin-bottom: 40px;
+}
+
+
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-bottom: 40px;  
+    gap: 48px;      
+    border-top: #7C5630 1px solid;
+    li{
+        border-right: #7C5630 1px solid;
+        padding-right: 40px; 
+    }
+    a{
+        font-size: 3rem;
+        color: #7C5630;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+.footer li:last-child{
+    border-right: none;
+}

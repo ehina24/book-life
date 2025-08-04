@@ -1,0 +1,145 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Zen Old Mincho",sans-serif;
+    background-color: #785630;
+}
+.container{
+    background-color: #FFFACD;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-right: 16px;
+    gap: 230px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: #FC9420;
+}
+.bookcontent{
+    border: 1px solid #7C5830;
+    width: 600px;
+    height: 140px;
+    padding-left: 24px;
+}
+.book{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.title{
+    color: #7C5830;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.time{
+    color: #7C5830;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.first{
+    color: #7C5830;
+    font-size: 3.2rem;
+    font-weight: 400;
+    span{
+        color: #FC9420;
+    }
+}
+.continuation{
+    color: #7C5830;
+    font-size: 3.2rem;
+    font-weight: 400;
+    span{
+        color: #FC9420;
+    }
+}
+.place{
+    display: flex;
+    gap: 40px;
+    margin-top: 24px;
+    a{
+        text-decoration: none;
+    }
+}
+h2{
+    color: #7C5830;
+    font-size: 5.6rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+}
+.worktitle{
+    color: #7C5830;
+    font-size: 3.2rem;
+    font-weight: 400;
+}
+.timerequired{
+    color: #7C5830;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.work{
+    display: flex;
+    gap: 40px;
+    margin-left: 10px;
+    margin-top: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-bottom: 40px; 
+    margin-top: 40px;
+    gap: 48px;      
+    border-top: #7C5630 1px solid;
+    li{
+        border-right: #7C5630 1px solid;
+        padding-right: 40px; 
+    }
+    a{
+        font-size: 3rem;
+        color: #7C5630;
+        text-decoration: none;
+    }
+}
+.footer li:last-child{
+    border-right: none;
+}

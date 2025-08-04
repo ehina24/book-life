@@ -1,0 +1,90 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #785630;
+}
+.container{
+    background-color: #fffacd;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    font-family: "Zen Old Mincho",sans-serif;
+}
+.nav ul{
+    display: flex;
+    gap: 72px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #7C5830;
+}
+.contentWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+}
+.loginWrap{
+    margin-top: 80px;
+}
+.loginWrap input{
+    font-size: 2rem;
+    text-align: center;
+    border: 2px solid #7C5830;
+    color: #7C5830;
+    height: 64px;
+    width: 400px;
+    margin-top: 16px;
+}
+.loginWrap input::placeholder{
+    color: rgba(124, 88, 48, 0.50);
+}
+.id{
+    color: #7C5830;
+    font-size: 4.8rem;
+    font-weight: 400;
+    text-align: center
+}
+.password{
+    color: #7C5830;
+    font-size: 4.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+.passwordWrap input{
+    border: 2px solid #7C5830;
+    color: #7C5830;
+    height: 64px;
+    width: 400px;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 16px;
+}
+.passwordWrap input::placeholder{
+    color: rgba(124, 88, 48, 0.50);
+}
+.forget{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #7C5830;
+    text-align: right;
+    span{
+        color: #fc9420;
+        border-bottom: 1px solid #fc9420;
+    }
+}
+.new{
+    font-size: 3.6rem;
+    color: #7C5830;
+    font-weight: 400;
+    margin-bottom: 20px;
+    span{
+        color: #fc9420;
+    }
+}

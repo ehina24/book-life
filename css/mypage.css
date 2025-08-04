@@ -1,0 +1,108 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Zen Old Mincho",sans-serif;
+    background-color: #785630;
+}
+.container{
+    background-color: #FFFACD;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-right: 16px;
+    gap: 230px;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: #FC9420;
+}
+.profile{
+    text-align: center;
+}
+.profile img{
+    background-color: rgba(124, 88, 48, 0.50);
+    border-radius: 100%;
+}
+.profile p{
+    color: #7c5830;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.content{
+    display: flex;
+    gap: 32px;
+}
+.readWrap{
+    background-color: rgba(124, 88, 48, 0.50);
+    width: 400px;
+    height: 240px;
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-left: 11px;
+}
+h2{
+    color: #7c5830;
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+}
+.read{
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+    img{
+        margin-left: 40px;
+    }
+}
+.readContent span{
+    border-bottom: rgba(124, 88, 48, 0.70) 1px solid;
+}
+.readContent p{
+    color: #7c5830;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.recordWrap{
+    background-color: rgba(124, 88, 48, 0.50);
+    width: 400px;
+    height: 240px;
+    border-radius: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+.record{
+    margin-top: 24px;
+}
+.nowpage{
+    color: #7c5830;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.today{
+    color: #7c5830;
+    font-size: 2rem;
+    font-weight: 400;
+}
+h3{
+    color: #7c5830;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.myshelfWrap{
+    text-align: center;
+    img{
+        margin-bottom: 40px;
+    }
+}

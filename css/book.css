@@ -1,0 +1,9 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Zen Old Mincho",sans-serif;
+    background-color: #785630;
+    display: flex;
+    justify-content: center;
+}
